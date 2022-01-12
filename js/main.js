@@ -38,43 +38,43 @@
       /* -----------------------------------------------------------------------
         Countdown
         ----------------------------------------------------------------------- */
-        this.$countdown.countDown({
-          targetDate: {
-            'day':    this.$options.day,
-            'month':  this.$options.month,
-            'year':   this.$options.year,
-            'hour':   this.$options.hour,
-            'min':    this.$options.min,
-            'sec':    this.$options.sec
-          },
-          omitWeeks: true
-        });
+        // this.$countdown.countDown({
+        //   targetDate: {
+        //     'day':    this.$options.day,
+        //     'month':  this.$options.month,
+        //     'year':   this.$options.year,
+        //     'hour':   this.$options.hour,
+        //     'min':    this.$options.min,
+        //     'sec':    this.$options.sec
+        //   },
+        //   omitWeeks: true
+        // });
 
       /* ==============================================
       NiceScroll
       =============================================== */
-      $("html").niceScroll({
-        scrollspeed: 50,
-        mousescrollstep: 38,
-        cursorwidth: 7,
-        cursorborder: 0,
-        autohidemode: true,
-        zindex: 9999999,
-        horizrailenabled: false,
-        cursorborderradius: 0
-      });
+      // $("html").niceScroll({
+      //   scrollspeed: 50,
+      //   mousescrollstep: 38,
+      //   cursorwidth: 7,
+      //   cursorborder: 0,
+      //   autohidemode: true,
+      //   zindex: 9999999,
+      //   horizrailenabled: false,
+      //   cursorborderradius: 0
+      // });
 
       /* ==============================================
       Parallax
       =============================================== */
-      $(window).stellar({
-        horizontalScrolling: false,
-        responsive: true,
-        scrollProperty: 'scroll',
-        parallaxElements: false,
-        horizontalOffset: 0,
-        verticalOffset: 0
-      });
+      // $(window).stellar({
+      //   horizontalScrolling: false,
+      //   responsive: true,
+      //   scrollProperty: 'scroll',
+      //   parallaxElements: false,
+      //   horizontalOffset: 0,
+      //   verticalOffset: 0
+      // });
 
       //custom app
       
@@ -87,5 +87,5 @@
 
   //Initializing the app
   //passing the countdown date
-  App.init({day: 20, month: 1, year: 2022, hour: 20, min: 0, sec: 0});
+  App.init();
 });
